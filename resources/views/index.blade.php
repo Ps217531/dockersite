@@ -26,7 +26,7 @@
                 <a href="about">Over ons</a>
             </li>
             <li>
-                <a href="contact">Contact</a>
+                <a href="contact">Contact test 123 test 123</a>
             </li>
         </ul>
     </nav>
