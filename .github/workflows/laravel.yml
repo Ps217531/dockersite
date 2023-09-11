@@ -60,12 +60,12 @@ jobs:
       # Voeg hieronder de stappen toe om een Docker-image te bouwen en te pushen
       
       - name: Build Docker Image
-        run: docker build -t test .
+        run: docker build ./dockerfile
       
       - name: Log into Docker Hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_ACCES_TOKEN}}
       
       - name: Push Docker Image
-        run: docker push nickvanhooff/website:test
+        run: docker push nickvanhooff/website
 
 
