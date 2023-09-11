@@ -20,7 +20,7 @@ jobs:
 
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
       with:
-        php-version: '8.0'
+        php-version: '8.1'
 
     - uses: actions/checkout@v3
 
@@ -55,3 +55,6 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
+
+    - name: Build Docker Image
+      run: docker build -t your-image-name:latest .
