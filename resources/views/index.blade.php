@@ -15,7 +15,7 @@
             <h2>
                 <span class="text-3xl">Ontdek onze prachtige collectie planten</span>
                 <span class="text-3xl">Binnenkort beschikbaar in onze webshop</span>
-                <h1>hasan test123</h1>
+                <h1>hasan test1234</h1>
             </h2>
             <p class="text-xl text-center mb-8">Ontdek een wereld van prachtige planten</p>
             <a href="about" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300 ease-in-out transform hover:scale-105">Over ons</a>
