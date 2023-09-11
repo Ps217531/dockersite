@@ -11,7 +11,11 @@
     <header class="bg-cover bg-center h-screen relative" style="background-image: url('images/header-image.jpg');">
         <div class="absolute inset-0 bg-black opacity-60"></div>
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <h1 class="text-5xl font-extrabold text-center mb-4">Welkom bij de Planten Webshop</h1>
+            <h1 class="text-5xl font-extrabold text-center mb-4">Welkom bij de Planten Webshop van Nick van Hooff. </h1>\
+            <h2>
+                <span class="text-3xl">Ontdek onze prachtige collectie planten</span>
+                <span class="text-3xl">Binnenkort beschikbaar in onze webshop</span>
+            </h2>
             <p class="text-xl text-center mb-8">Ontdek een wereld van prachtige planten</p>
             <a href="about" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300 ease-in-out transform hover:scale-105">Over ons</a>
             <a href="/contact" class="mt-4 border border-green-500 text-green-500 px-6 py-3 rounded-lg hover:bg-green-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105">Contact</a>
